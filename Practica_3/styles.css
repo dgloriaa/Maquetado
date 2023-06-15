@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Red-hat";
+    src: url(./fuentes/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: Red-hat;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(223, 47%, 23%)
+}
+
+.title__1 {
+    font-weight: 900;
+}
+
+body {
+    height: 800px;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.principal__flex {
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    border-radius: 25px;
+}
+
+#portada img {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.text {
+    padding: 0px 40px;
+}
+
+.shopping__anual {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin: 0px 20px 30px 20px;
+    border-radius: 15px;
+}
+
+.shopping__anual>img {
+    width: 50px;
+}
+
+.prices {
+    margin-left: -40px;
+}
+
+.prices>h4 {
+    margin-bottom: -10px;
+}
+
+.shopping__anual>a:hover {
+    color: rgb(118, 75, 246);
+    font-weight: 500;
+}
+.payment__button{
+    background-color:  rgb(118, 75, 246);
+    color: white;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+.payment__button:hover{
+    box-shadow: 5px 5px 30px -3px rgb(144, 98, 204);
+}
+.button_cancel:hover{
+    font-weight: 1000;
+}
